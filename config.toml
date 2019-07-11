@@ -1,4 +1,4 @@
-baseurl = "https://akainth.me"
+baseurl = "/"
 title = "Aanand Kainth"
 theme = "hugo-coder"
 languagecode = "en"
