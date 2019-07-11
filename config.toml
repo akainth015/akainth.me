@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = ""
 title = "Aanand Kainth"
 theme = "hugo-coder"
 languagecode = "en"
@@ -31,7 +31,7 @@ disqusShortname = "yourdiscussshortname"
     rtl = false
 
     math = true
-    custom_css = ["/css/global.css"]
+    custom_css = []
 
 # Social links
 [[params.social]]

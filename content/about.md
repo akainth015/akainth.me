@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2019-07-04T12:19:14-07:00
-draft: true
+draft: false
 ---
 
 ![Aanand Kainth](/images/avatar.jpg)
