@@ -3,7 +3,6 @@
 }
 
 body {
-    background-color: #eeeeee;
     overflow-x: hidden;
 }
 
@@ -23,8 +22,8 @@ img {
 
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 0 8px darkgray;
-    padding: 24px;
+    /*box-shadow: 0 0 8px darkgray;*/
+    /*padding: 24px;*/
 }
 
 .card :first-child {

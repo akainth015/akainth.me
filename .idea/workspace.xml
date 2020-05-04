@@ -19,8 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e761591-6f1a-4893-9d98-4e4273ce267c" name="Default Changelist" comment="Add meta image tag">
+    <list default="true" id="6e761591-6f1a-4893-9d98-4e4273ce267c" name="Default Changelist" comment="Make images look sexy on Chrome">
+      <change beforePath="$PROJECT_DIR$/.idea/akainth.me.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/akainth.me.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Project.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quick-links/QuickLink.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/quick-links/QuickLink.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588574965793</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Don't link to Spanish version of Chrome web store">
+      <created>1588575301868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588575301868</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Make images look sexy on Chrome">
+      <created>1588575501984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588575501984</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,28 +139,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Use React for rendering the site" />
     <MESSAGE value="Add meta image tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add meta image tag" />
+    <MESSAGE value="Don't link to Spanish version of Chrome web store" />
+    <MESSAGE value="Make images look sexy on Chrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make images look sexy on Chrome" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1588574967240">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1588575523241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588574967240" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588575523241" />
     <state x="380" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588564513054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="380" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1588564513054" />
-    <state x="666" y="255" width="587" height="530" key="find.popup" timestamp="1588570934443">
+    <state x="666" y="255" width="587" height="530" key="find.popup" timestamp="1588576061167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="255" width="587" height="530" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588570934443" />
+    <state x="666" y="255" width="587" height="530" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588576061167" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1588487276165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588487276165" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588575268840">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588576329035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588575268840" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588576329035" />
   </component>
 </project>
