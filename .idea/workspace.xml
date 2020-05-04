@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e761591-6f1a-4893-9d98-4e4273ce267c" name="Default Changelist" comment="Use React for rendering the site" />
+    <list default="true" id="6e761591-6f1a-4893-9d98-4e4273ce267c" name="Default Changelist" comment="Add meta image tag">
+      <change beforePath="$PROJECT_DIR$/src/projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588572479236</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add meta image tag">
+      <created>1588574965793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588574965793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,13 +119,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Use React for rendering the site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use React for rendering the site" />
+    <MESSAGE value="Add meta image tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add meta image tag" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1588572483447">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1588574967240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588572483447" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588574967240" />
     <state x="380" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588564513054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -129,9 +139,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588487276165" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588572358266">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588575268840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588572358266" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588575268840" />
   </component>
 </project>

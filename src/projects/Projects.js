@@ -8,7 +8,7 @@ const projects = [
         title: "Concept",
         description: "Writing essays is a daunting task. Concept makes it easier by offering on the fly analysis in an\n" +
             "easily visible sidebar of Google Docs.",
-        target: "https://chrome.google.com/webstore/detail/lmbabfbjfeaeclbdbodkgemdjhmmlabl/publish-accepted?authuser=0&hl=es"
+        target: "https://chrome.google.com/webstore/detail/lmbabfbjfeaeclbdbodkgemdjhmmlabl/publish-accepted?authuser=0"
     },
     {
         img: "/images/ambient.png",
