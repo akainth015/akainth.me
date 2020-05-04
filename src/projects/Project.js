@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function ({img, title, description, target}) {
+export default function ({img, title, description, target, style}) {
     return (
-        <a className="project card" href={target}>
+        <a className="project card" href={target} style={style}>
             {img !== undefined ? <div style={{
                 backgroundImage: `url(${img})`
             }}/> : null}

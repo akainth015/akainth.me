@@ -8,25 +8,41 @@ const projects = [
         title: "Concept",
         description: "Writing essays is a daunting task. Concept makes it easier by offering on the fly analysis in an\n" +
             "easily visible sidebar of Google Docs.",
-        target: "https://chrome.google.com/webstore/detail/lmbabfbjfeaeclbdbodkgemdjhmmlabl/publish-accepted?authuser=0"
+        target: "https://chrome.google.com/webstore/detail/lmbabfbjfeaeclbdbodkgemdjhmmlabl/publish-accepted?authuser=0",
+        style: {
+            background: "rebeccapurple",
+            color: "white"
+        }
     },
     {
         img: "/images/ambient.png",
         title: "Ambient",
         description: "IntelliJ is the most powerful IDE availble on the market today. The Ambient plugin lets you submit assignments to WebCAT, and provides more features (like ensuring your code compiles, and reformatting your code automatically).",
-        target: "https://plugins.jetbrains.com/plugin/12939-ambient"
+        target: "https://plugins.jetbrains.com/plugin/12939-ambient",
+        style: {
+            background: "gold",
+            color: "black"
+        }
     },
     {
         img: "/images/capture-the-flag.png",
         title: "Capture the Flag",
         description: "A fun challenge for beginner web developers. This will require you to know how to use your browser's developer tools.",
-        target: "https://github.com/akainth015/capture-the-flag"
+        target: "https://github.com/akainth015/capture-the-flag",
+        style: {
+            background: "cadetblue",
+            color: "white"
+        }
     },
     {
         img: "/images/pulse.png",
         title: "Pulse",
         description: "Pulse is an audio visualizer for your browser, and there is a desktop version as powered by Rainmeter as well.",
-        target: "https://akainth015.github.io/pulse"
+        target: "https://akainth015.github.io/pulse",
+        style: {
+            background: "ghostwhite",
+            color: "black"
+        }
     }
 ];
 
