@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bda973f-6c8a-41a5-aeb8-8451290b8b0e" name="Default Changelist" comment="Update description for Plume">
+    <list default="true" id="9bda973f-6c8a-41a5-aeb8-8451290b8b0e" name="Default Changelist" comment="Update Tutorfly job description">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/work-experience/WorkExperience.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/work-experience/WorkExperience.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/work-experience/WorkExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/work-experience/WorkExperience.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588576967789</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Improve HTML formatting">
+      <created>1588580621358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588580621358</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update Tutorfly job description">
+      <created>1588580644737</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588580644737</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,13 +142,15 @@
     <MESSAGE value="Use React for rendering the site" />
     <MESSAGE value="Add meta image tag" />
     <MESSAGE value="Remove link to Plume in education section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove link to Plume in education section" />
+    <MESSAGE value="Improve HTML formatting" />
+    <MESSAGE value="Update Tutorfly job description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Tutorfly job description" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1588576969285">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1588580651859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588576969285" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588580651859" />
     <state x="380" y="101" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588564513054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -149,9 +163,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588487276165" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588580004951">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588580626331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588580004951" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588580626331" />
   </component>
 </project>
