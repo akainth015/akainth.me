@@ -6,6 +6,7 @@
     float: left;
     margin-right: 16px;
     flex: 0 0 48px;
+    width: 48px;
 }
 
 .experience h1 {
