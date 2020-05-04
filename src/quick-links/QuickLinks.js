@@ -10,7 +10,7 @@ export default function () {
                 <QuickLink Icon={AiFillGithub} label="GitHub" target="https://github.com/akainth015"/>
                 <QuickLink Icon={AiFillInstagram} label="Instagram" target="https://instagram.com/akainth015"/>
                 <QuickLink Icon={AiFillLinkedin} label="LinkedIn" target="https://linkedin.com/in/akainth015"/>
-                <QuickLink Icon={AiFillFileText} label="Resume" target="https://linkedin.com/in/akainth015"/>
+                <QuickLink Icon={AiFillFileText} label="Resume" target="/resume.pdf"/>
                 <QuickLink Icon={AiFillMail} label="aanand@akainth.me" target="mailto:aanand@akainth.me"/>
             </div>
         </section>
