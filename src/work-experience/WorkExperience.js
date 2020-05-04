@@ -21,13 +21,15 @@ export default function () {
             <h1 id="work-experience">Work Experience</h1>
             <div className="experiences">
                 {workExperiences.map(({target, img, title, description}, i) => (
-                    <a className="experience card" key={i} href={target}>
-                        <div className="heading">
-                            <img src={img} alt=""/>
-                            <h1>{title}</h1>
-                        </div>
+                    <div className="experience card" key={i}>
+                        <a href={target}>
+                            <div className="heading">
+                                <img src={img} alt=""/>
+                                <h1>{title}</h1>
+                            </div>
+                        </a>
                         <p>{description}</p>
-                    </a>
+                    </div>
                 ))}
             </div>
         </section>
