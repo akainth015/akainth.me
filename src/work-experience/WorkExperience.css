@@ -1,0 +1,32 @@
+.experience {
+    margin: 16px;
+}
+
+.experience img {
+    float: left;
+    margin-right: 16px;
+    flex: 0 0 48px;
+}
+
+.experience h1 {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.experience .heading {
+    display: flex;
+    align-items: center;
+}
+
+.experiences {
+    margin: -16px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 600px) {
+    .experience {
+        width: calc(50% - 32px);
+    }
+}

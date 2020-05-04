@@ -1,0 +1,61 @@
+.project {
+    display: inline-block;
+    padding: 0;
+    white-space: normal;
+    color: black;
+    text-decoration: none;
+    max-width: 80%;
+    margin: 16px;
+}
+
+.project div:first-child {
+    background-size: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-height: 145px;
+    min-width: 100px;
+    min-height: 145px;
+}
+
+.project .text-content {
+    padding: 24px;
+}
+
+.project h1 {
+    margin-bottom: 8px;
+}
+
+.project p {
+    margin-top: 8px;
+    height: 145px;
+    overflow-y: auto;
+}
+
+.projects {
+    margin: -16px;
+    padding-bottom: 8px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 600px) {
+    .project {
+        width: calc(50% - 32px);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .project {
+        width: calc(33% - 32px);
+    }
+
+    .projects {
+        white-space: normal;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .project {
+        width: calc(25% - 32px);
+    }
+}
