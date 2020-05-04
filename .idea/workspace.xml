@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e761591-6f1a-4893-9d98-4e4273ce267c" name="Default Changelist" comment="Add meta image tag">
-      <change beforePath="$PROJECT_DIR$/src/projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.js" afterDir="false" />
-    </list>
+    <list default="true" id="6e761591-6f1a-4893-9d98-4e4273ce267c" name="Default Changelist" comment="Add meta image tag" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="colorful" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

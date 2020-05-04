@@ -11,7 +11,6 @@ const education = [
         img: "https://engineering.asu.edu/wp-content/uploads/2019/04/ASU-Fulton-Schools-logo-gold-vertical.png",
         title: "Ira A. Fulton Schools of Engineering",
         description: "I am studying Computer Science at Arizona State University with a concentration on Software Engineering. My expected graduation is in 2024, but I am working to graduate as early as 2023.",
-        target: "https://plume.com"
     }
 ];
 
