@@ -17,7 +17,7 @@ const projects = [
     {
         img: "/images/ambient.png",
         title: "Ambient",
-        description: "IntelliJ is the most powerful IDE availble on the market today. The Ambient plugin lets you submit assignments to WebCAT, and provides more features (like ensuring your code compiles, and reformatting your code automatically).",
+        description: "IntelliJ is the most powerful IDE available on the market today. The Ambient plugin lets you submit assignments to WebCAT, and provides more features (like ensuring your code compiles, and reformatting your code automatically).",
         target: "https://plugins.jetbrains.com/plugin/12939-ambient",
         style: {
             background: "gold",
