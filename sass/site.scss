@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'metropolis';
+  src: url("/fonts/Metropolis-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'metropolis';
+  src: url("/fonts/Metropolis-Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'metropolis';
+  src: url("/fonts/Metropolis-SemiBold.otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'metropolis';
+  src: url("/fonts/Metropolis-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'metropolis';
+  src: url("/fonts/Metropolis-ExtraBold.otf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'metropolis';
+  src: url("/fonts/Metropolis-Black.otf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "metropolis", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.15;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  @media (prefers-color-scheme: light) {
+    background-color: white;
+    color: black;
+  }
+}
+
+header {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  @media (prefers-color-scheme: light) {
+    background-color: white;
+    color: black;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    max-width: 1250px;
+    height: 100%;
+    width: 100%;
+
+    h1 {
+      flex-grow: 1;
+    }
+
+    img {
+      height: 32px;
+      margin-right: 8px;
+    }
+  }
+}
+
+div.icon {
+  background-image: url("/images/dark64.png");
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  @media (prefers-color-scheme: light) {
+    background-image: url("/images/light64.png");
+  }
+}
+
+div.icon32 {
+  height: 32px;
+  width: 32px;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  line-height: 2em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}

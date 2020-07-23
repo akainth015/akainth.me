@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% if config.extra.favicon %}
+        <link rel="icon" href="{{config.extra.favicon}}">
+        {% endif %}
+        <link rel="stylesheet" href="/site.css">
+        <link rel="stylesheet" href="/index.css">
+        <title>{{config.title}}</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                {% if config.extra.favicon %}
+                <div class="icon icon32"></div>
+                {% endif %}
+                <p>{{config.title}}</p>
+                {% if config.extra.navLinks %}
+                <nav>
+                    <ul>
+                        {% for navLink in config.extra.navLinks %}
+                        <li><a href="{{navLink.href}}">{{navLink.text}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+                {% endif %}
+            </div>
+        </header>
+        <main>
+            <section id="hero">
+                <div>
+                    <div>
+                        <h1>
+                            {{config.extra.exclamation}}
+                            <br>
+                            {{config.extra.greeting}}
+                        </h1>
+                        <p>
+                            {% set hero_page = get_page(path="hero.md") %}
+                            {{ hero_page.content | safe }}
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="/scripts/site.js"></script>
+    </body>
+</html>
