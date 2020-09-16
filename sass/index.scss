@@ -1,26 +1,42 @@
 section#hero {
-  margin-top: 11rem;
-  > div {
-    max-width: 1250px;
-    min-height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
     @media (min-width: 768px) {
-      > div {
-        width: 55%;
-      }
+        margin-top: 11rem;
     }
 
-    h1 {
-      font-size: 3rem;
-      @media (min-width: 768px) {
-        font-size: 4.5rem;
-      }
-    }
+    > div {
+        max-width: 1250px;
+        min-height: 13rem;
+        @media (min-width: 768px) {
+            > div {
+                width: 55%;
+            }
+        }
 
-    p {
-      font-size: 0.9rem;
-      @media (min-width: 768px) {
-        font-size: 1rem;
-      }
+        h1 {
+            font-size: 2.5rem;
+            @media (min-width: 768px) {
+                font-size: 4.5rem;
+            }
+        }
+
+        p {
+            font-size: 0.9rem;
+            @media (min-width: 768px) {
+                font-size: 1rem;
+            }
+        }
     }
-  }
+}
+
+#social-links img {
+    @media (prefers-color-scheme: dark) {
+        filter: invert(100%);
+    }
+    margin-right: 4px;
+    width: 2rem;
 }

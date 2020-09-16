@@ -23,3 +23,18 @@ build_search_index = false
 favicon="/images/dark64.png"
 exclamation="Hello!"
 greeting="My name is Aanand."
+
+[[extra.socialLinks]]
+img="/logos/github.svg"
+href="https://github.com/akainth015"
+
+[[extra.socialLinks]]
+img="/logos/linkedin.svg"
+href="https://linkedin.com/in/akainth015"
+
+[[extra.socialLinks]]
+img="/logos/email.svg"
+href="mailto:aanand@akainth.me"
+
+[extra.light]
+favicon="/images/light64.png"

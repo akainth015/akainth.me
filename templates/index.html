@@ -7,6 +7,17 @@
         <link rel="icon" href="{{config.extra.favicon}}">
         {% endif %}
         <link rel="stylesheet" href="/site.css">
+        <style>
+            div.icon {
+                background-image: url("{{config.extra.favicon | safe}}");
+            }
+
+            @media (prefers-color-scheme: light) {
+                div.icon {
+                    background-image: url("{{config.extra.light.favicon | safe}}");
+                }
+            }
+        </style>
         <link rel="stylesheet" href="/index.css">
         <title>{{config.title}}</title>
     </head>
@@ -28,23 +39,48 @@
                 {% endif %}
             </div>
         </header>
-        <main>
-            <section id="hero">
+        <section id="hero">
+            <div>
                 <div>
-                    <div>
-                        <h1>
-                            {{config.extra.exclamation}}
-                            <br>
-                            {{config.extra.greeting}}
-                        </h1>
-                        <p>
-                            {% set hero_page = get_page(path="hero.md") %}
-                            {{ hero_page.content | safe }}
-                        </p>
+                    <h1>
+                        {{config.extra.exclamation}}
+                        <br>
+                        {{config.extra.greeting}}
+                    </h1>
+                    <p>
+                        {% set hero_page = get_page(path="_index_/hero.md") %}
+                        {{ hero_page.content | safe }}
+                    </p>
+                    <div id="social-links">
+                        {% for socialLink in config.extra.socialLinks %}
+                        <a href="{{socialLink.href}}"><img src="{{socialLink.img}}" alt="{{socialLink.img}}"></a>
+                        {% endfor %}
                     </div>
                 </div>
+            </div>
+        </section>
+        <main>
+            {% set sections = get_section(path="_index_/_index.md") %}
+            {% for section in sections.pages %}
+            {% if section.path != "_index_/hero/" %}
+            <section>
+                <div>
+                    {{ section.content | safe }}
+                </div>
             </section>
+            {% endif %}
+            {% endfor %}
         </main>
-        <script src="/scripts/site.js"></script>
+        <script>
+            function handleColorSchemeChange(isLightMode) {
+                document.querySelector(`link[rel='icon']`).href = isLightMode ? "{{config.extra.light.favicon | safe}}" : "{{config.extra.favicon | safe}}";
+            }
+
+            const isLightModeQuery = matchMedia("(prefers-color-scheme: light)");
+            isLightModeQuery.addEventListener("change", function (ev) {
+                handleColorSchemeChange(ev.matches);
+            });
+            handleColorSchemeChange(isLightModeQuery.matches);
+        </script>
     </body>
 </html>
