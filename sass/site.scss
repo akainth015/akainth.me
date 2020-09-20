@@ -157,3 +157,15 @@ main > section {
         }
     }
 }
+
+a.button {
+    background-color: rebeccapurple;
+    color: white;
+    display: inline-block;
+    border-radius: 100vw;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 4px;
+}
