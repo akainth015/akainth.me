@@ -1,0 +1,44 @@
+# The URL the site will be built for
+base_url = "https://akainth.me"
+
+# The site title and description; used in feeds by default.
+title = "Aanand Kainth"
+description = "Aanand is a undergraduate at the University of California, Santa Cruz. He is studying computer science and works in open-source through the Major League Hacking Fellowship"
+
+# The default language; used in feeds.
+default_language = "en"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[extra]
+# Put all your custom variables here
+favicon="/images/dark64.png"
+exclamation="Hello!"
+greeting="My name is Aanand."
+
+[[extra.socialLinks]]
+img="/logos/github.svg"
+href="https://github.com/akainth015"
+
+[[extra.socialLinks]]
+img="/logos/linkedin.svg"
+href="https://linkedin.com/in/akainth015"
+
+[[extra.socialLinks]]
+img="/logos/email.svg"
+href="mailto:aanand@akainth.me"
+
+[[extra.socialLinks]]
+img="/logos/page.png"
+href="/resume.pdf"
+
+[extra.light]
+favicon="/images/light64.png"

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% if config.extra.favicon %}
+        <link rel="icon" href="{{config.extra.favicon}}">
+        {% endif %}
+        <link rel="stylesheet" href="/site.css">
+        <style>
+            div.icon {
+                background-image: url("{{config.extra.favicon | safe}}");
+            }
+
+            @media (prefers-color-scheme: light) {
+                div.icon {
+                    background-image: url("{{config.extra.light.favicon | safe}}");
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="/index.css">
+        <title>{{config.title}}</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                {% if config.extra.favicon %}
+                <div class="icon icon32"></div>
+                {% endif %}
+                <p>{{config.title}}</p>
+                {% if config.extra.navLinks %}
+                <nav>
+                    <ul>
+                        {% for navLink in config.extra.navLinks %}
+                        <li><a href="{{navLink.href}}">{{navLink.text}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+                {% endif %}
+            </div>
+        </header>
+        <section id="hero">
+            <div>
+                <div>
+                    <h1>
+                        {{config.extra.exclamation}}
+                        <br>
+                        {{config.extra.greeting}}
+                    </h1>
+                    <p>
+                        {% set hero_page = get_page(path="_index_/hero.md") %}
+                        {{ hero_page.content | safe }}
+                    </p>
+                    <div id="social-links">
+                        {% for socialLink in config.extra.socialLinks %}
+                        <a href="{{socialLink.href}}"><img src="{{socialLink.img}}" alt="{{socialLink.img}}"></a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main>
+            {% set sections = get_section(path="_index_/_index.md") %}
+            {% for section in sections.pages %}
+            {% if section.path != "_index_/hero/" %}
+            <section>
+                <div>
+                    {{ section.content | safe }}
+                </div>
+            </section>
+            {% endif %}
+            {% endfor %}
+        </main>
+        <script>
+            function handleColorSchemeChange(isLightMode) {
+                document.querySelector(`link[rel='icon']`).href = isLightMode ? "{{config.extra.light.favicon | safe}}" : "{{config.extra.favicon | safe}}";
+
+                const lightModeString = `${isLightMode ? "light" : "dark"}`;
+                document.querySelectorAll(`img[data-${lightModeString}-src]`).forEach(img => {
+                    console.log(img.getAttribute(`data-${lightModeString}-src`));
+                    img.src = img.getAttribute(`data-${lightModeString}-src`);
+                });
+            }
+
+            const isLightModeQuery = matchMedia("(prefers-color-scheme: light)");
+            isLightModeQuery.addEventListener("change", function (ev) {
+                handleColorSchemeChange(ev.matches);
+            });
+            handleColorSchemeChange(isLightModeQuery.matches);
+        </script>
+    </body>
+</html>
