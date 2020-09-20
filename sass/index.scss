@@ -38,7 +38,7 @@ section.project {
     padding: 2em;
 
     p {
-        font-size: 0.75em;
+        font-size: .75em;
     }
 
     img {
@@ -60,6 +60,43 @@ section.project {
         &:nth-child(even) {
             flex-direction: column-reverse;
         }
+    }
+}
+
+section.education {
+    display: flex;
+    align-items: flex-start;
+    border-left: dotted thick gray;
+    padding-top: 16px;
+    padding-left: 32px;
+    margin-left: 32px;
+    @media screen and (min-width: 768px) {
+        padding-left: 48px;
+    }
+    flex-direction: column;
+
+    img {
+        max-height: 64px;
+    }
+    p {
+        margin-top: 16px;
+    }
+    > div:first-child {
+        display: flex;
+        align-items: center;
+
+        h2 {
+            margin-top: 0;
+            margin-left: 24px;
+            text-align: left;
+        }
+    }
+}
+
+#experience-container {
+    @media screen and (min-width: 768px) {
+        margin: auto;
+        width: 800px;
     }
 }
 
