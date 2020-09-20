@@ -74,6 +74,12 @@
         <script>
             function handleColorSchemeChange(isLightMode) {
                 document.querySelector(`link[rel='icon']`).href = isLightMode ? "{{config.extra.light.favicon | safe}}" : "{{config.extra.favicon | safe}}";
+
+                const lightModeString = `${isLightMode ? "light" : "dark"}`;
+                document.querySelectorAll(`img[data-${lightModeString}-src]`).forEach(img => {
+                    console.log(img.getAttribute(`data-${lightModeString}-src`));
+                    img.src = img.getAttribute(`data-${lightModeString}-src`);
+                });
             }
 
             const isLightModeQuery = matchMedia("(prefers-color-scheme: light)");

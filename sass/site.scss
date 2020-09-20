@@ -55,7 +55,7 @@ body {
     color: white;
     font-family: "metropolis", sans-serif;
     font-size: 1.6rem;
-    line-height: 1.15;
+    line-height: 1.5;
     text-rendering: optimizeLegibility;
     margin: 0;
     @media (prefers-color-scheme: light) {
@@ -121,34 +121,34 @@ p {
     line-height: 2em;
 }
 
-section {
+main > section, section#hero {
     padding: 1rem;
 }
 
-main section {
+main > section {
     margin-top: 10rem;
-}
 
-main section div {
-    margin: auto;
-    max-width: 1250px;
-}
+    > div {
+        margin: auto;
+        max-width: 1250px;
+    }
 
-main section h1 {
-    margin: 0;
-    font-weight: 600;
-    font-size: 3rem;
-    text-align: center;
-}
+    h1 {
+        margin: 0;
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: center;
+    }
 
-main section h2 {
-    margin: 1rem 0 0 0;
-    font-size: 1.4rem;
-    font-weight: normal;
-    color: #596a89;
-    text-align: center;
+    h2 {
+        margin: 1rem 0 0 0;
+        font-size: 1.4rem;
+        font-weight: normal;
+        color: #596a89;
+        text-align: center;
 
-    @media (prefers-color-scheme: dark) {
-        color: gray;
+        @media (prefers-color-scheme: dark) {
+            color: white;
+        }
     }
 }
