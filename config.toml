@@ -20,7 +20,7 @@ build_search_index = false
 
 [extra]
 # Put all your custom variables here
-favicon="/images/dark64.png"
+favicon="/images/light64.png"
 exclamation="Hello!"
 greeting="My name is Aanand."
 
@@ -40,5 +40,5 @@ href="mailto:aanand@akainth.me"
 img="/logos/page.png"
 href="/resume.pdf"
 
-[extra.light]
-favicon="/images/light64.png"
+[extra.dark]
+favicon="/images/dark64.png"

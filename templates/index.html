@@ -12,9 +12,9 @@
                 background-image: url("{{config.extra.favicon | safe}}");
             }
 
-            @media (prefers-color-scheme: light) {
+            @media (prefers-color-scheme: dark) {
                 div.icon {
-                    background-image: url("{{config.extra.light.favicon | safe}}");
+                    background-image: url("{{config.extra.dark.favicon | safe}}");
                 }
             }
         </style>
@@ -73,7 +73,7 @@
         </main>
         <script>
             function handleColorSchemeChange(isLightMode) {
-                document.querySelector(`link[rel='icon']`).href = isLightMode ? "{{config.extra.light.favicon | safe}}" : "{{config.extra.favicon | safe}}";
+                document.querySelector(`link[rel='icon']`).href = isLightMode ? "{{config.extra.favicon | safe}}" : "{{config.extra.dark.favicon | safe}}";
 
                 const lightModeString = `${isLightMode ? "light" : "dark"}`;
                 document.querySelectorAll(`img[data-${lightModeString}-src]`).forEach(img => {
