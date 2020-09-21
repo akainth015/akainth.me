@@ -51,8 +51,8 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: "metropolis", sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
@@ -63,21 +63,21 @@ body {
         font-size: 1rem;
     }
 
-    @media (prefers-color-scheme: light) {
-        background-color: white;
-        color: black;
+    @media (prefers-color-scheme: dark) {
+        background-color: black;
+        color: white;
     }
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
-    @media (prefers-color-scheme: light) {
-        background-color: white;
-        color: black;
+    @media (prefers-color-scheme: dark) {
+        background-color: black;
+        color: white;
     }
 
     > div {
