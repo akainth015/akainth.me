@@ -33,6 +33,10 @@ img="/logos/linkedin.svg"
 href="https://linkedin.com/in/akainth015"
 
 [[extra.socialLinks]]
+img="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+href="https://dev.to/akainth015"
+
+[[extra.socialLinks]]
 img="/logos/email.svg"
 href="mailto:aanand@akainth.me"
 
