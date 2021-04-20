@@ -6,6 +6,19 @@ weight = 0
 
 # Work Experience
 
+### 2021
+
+<section class="education">
+    <div>
+        <img src="_index_/facebook-ai-research.svg" alt="">
+        <h2>through MLH</h2>
+    </div>
+
+Worked with Facebook Research on reducing requisite code churn in VISSL, their open source library for 
+self-supervised learning. Standardized event storage and logging interfaces, and implemented responsive
+learning rate scaling.
+</section>
+
 ### 2020
 
 <section class="education">
