@@ -7,14 +7,23 @@ weight = 0
 # Work Experience
 
 ### 2021
+<section class="education">
+    <div>
+        <img src="_index_/plume.png" alt="">
+        <h2>Software Intern, Plume</h2>
+    </div>
+
+At Plume, I worked on upgrading microservices to GRPC, internal service
+scripts, and using the Braze APIs to onboard new customers.
+</section>
 
 <section class="education">
     <div>
-        <img src="_index_/facebook-ai-research.svg" alt="">
+        <img src="_index_/facebook-ai-research.svg" alt="Facebook AI Research">
         <h2>through MLH</h2>
     </div>
 
-Worked with Facebook Research on reducing requisite code churn in VISSL, their open source library for 
+Worked with Facebook AI Research on reducing requisite code churn in VISSL, their open source library for 
 self-supervised learning. Standardized event storage and logging interfaces, and implemented responsive
 learning rate scaling.
 </section>
