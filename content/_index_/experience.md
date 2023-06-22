@@ -6,6 +6,16 @@ weight = 0
 
 # Work Experience
 
+### 2023
+<section class="education">
+    <div>
+        <img src="_index_/aws.png" alt="" data-dark-src="_index_/AWS-Logo-halfwhite.png" data-light-src="_index_/aws.png">
+        <h2>Software Development Engineer Intern</h2>
+    </div>
+    
+I am currently working at AWS on the CloudWatch RUM (Real-User Monitoring) team.
+</section>
+
 ### 2021
 <section class="education">
     <div>
@@ -19,11 +29,11 @@ scripts, and using the Braze APIs to onboard new customers.
 
 <section class="education">
     <div>
-        <img src="_index_/facebook-ai-research.svg" alt="Facebook AI Research">
+        <img src="_index_/Meta.jpg" alt="Facebook AI Research">
         <h2>through MLH</h2>
     </div>
 
-Worked with Facebook AI Research on reducing requisite code churn in VISSL, their open source library for 
+Worked with Meta AI on reducing requisite code churn in VISSL, their open source library for 
 self-supervised learning. Standardized event storage and logging interfaces, and implemented responsive
 learning rate scaling.
 </section>
@@ -67,7 +77,7 @@ Taught web development skills to a class of elementary, middle, and high school 
 
 # Education
 
-### 2020
+### 2020 - 2023
 
 <section class="education">
     <div>
@@ -75,10 +85,12 @@ Taught web development skills to a class of elementary, middle, and high school 
         <h2>Jack Baskin School of Engineering, UC Santa Cruz</h2>
     </div>
     
-Studying Computer Science at UC Santa Cruz and expecting to graduate in 2024.
+Graduated Magna Cum Laude from UC Santa Cruz in 3 years with a B.S. in CS, and Highest Honors in the Major.
+Served as the president of the UCSC Rocket Team, leading it to successfully complete the NASA Student Launch
+competition for the first time since its inception, placing 26th among 51 universities nationwide.
 </section>
 
-### 2016
+### 2016 - 2020
 <section class="education">
     <div>
         <img src="_index_/lhs.jpg" alt="">
