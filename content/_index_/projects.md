@@ -7,6 +7,19 @@ weight = 1
 
 <section class="project">
     <div>
+        <div><p>EyeGuard is a Windows app that helps its 200+ users keep their peepers peeping,
+        by opening timely reminders to rest their eyes for 20 seconds every 20 minutes.
+        </p>
+        <div><a class="button" href="https://eyeguard.akainth.me">Website</a></div></div>
+    </div>
+    <div>
+        <img src="_index_/EyeGuard.png" alt="">
+        <h1>EyeGuard</h1>
+    </div>
+</section>
+
+<section class="project">
+    <div>
         <img src="https://concept.akainth.me/assets/concept.png" alt="">
         <h1>Concept</h1>
     </div>

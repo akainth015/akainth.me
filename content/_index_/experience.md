@@ -23,8 +23,10 @@ I am currently working at AWS on the CloudWatch RUM (Real-User Monitoring) team.
         <h2>Software Intern, Plume</h2>
     </div>
 
-At Plume, I worked on upgrading microservices to GRPC, internal service
-scripts, and using the Braze APIs to onboard new customers.
+When I returned to Plume, I upgraded some endpoints to gRPC, 
+rolled out more microservices, internal service scripts, and 
+leveraged the Braze APIs to help users navigate the setup
+process.
 </section>
 
 <section class="education">
@@ -33,8 +35,8 @@ scripts, and using the Braze APIs to onboard new customers.
         <h2>through MLH</h2>
     </div>
 
-Worked with Meta AI on reducing requisite code churn in VISSL, their open source library for 
-self-supervised learning. Standardized event storage and logging interfaces, and implemented responsive
+Worked with Meta AI research on reducing requisite code churn in VISSL, their open source library for 
+self-supervised learning. I also standardized event storage and logging interfaces, and implemented responsive
 learning rate scaling.
 </section>
 
@@ -46,8 +48,8 @@ learning rate scaling.
         <h2>Fellow, MLH</h2>
     </div>
     
-Worked on BentoML, a high-performance machine-learning model server. Eliminated all warnings from tests in master, 
-and ideated and executed one of the project's largest refactors that halved the amount of code required for 
+My first time with Major League Hacking, I worked on BentoML, a high-performance machine-learning model server. 
+There, I ideated and executed one of the project's largest refactors that halved the amount of code required for 
 a typical contribution.
 </section>
 
@@ -59,7 +61,8 @@ a typical contribution.
         <h2>API Intern, Plume</h2>
     </div>
 
-Upgraded the network operations center to ECMAScript6, improved its accessibility, and halved its load times. Kicked off the migration from AngularJS 1.x to Angular 8, and added support for dynamic CORS headers to microservices. 
+My first time interning, I upgraded the network operations center to ECMAScript6, improved its accessibility, and halved its load times. 
+I also kicked off the migration from AngularJS 1.x to Angular 8, and added support for dynamic CORS headers to microservices. 
 </section>
 
 ### 2018
