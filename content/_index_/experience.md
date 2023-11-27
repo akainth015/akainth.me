@@ -6,6 +6,14 @@ weight = 0
 
 # Work Experience
 
+### 2024
+<section class="education">
+    <div>
+        <span style="font-size: 3em;">😶‍🌫️</span>
+        <h2>Software Development Engineer</h2>
+    </div>
+</section>
+
 ### 2023
 <section class="education">
     <div>
