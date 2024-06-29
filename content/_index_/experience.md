@@ -9,9 +9,11 @@ weight = 0
 ### 2024
 <section class="education">
     <div>
-        <span style="font-size: 3em;">😶‍🌫️</span>
+        <img src="_index_/aws.png" alt="" data-dark-src="_index_/AWS-Logo-halfwhite.png" data-light-src="_index_/aws.png">
         <h2>Software Development Engineer</h2>
     </div>
+
+I work on the API team in the Managed Kafka service at AWS (MSK).
 </section>
 
 ### 2023
@@ -21,7 +23,9 @@ weight = 0
         <h2>Software Development Engineer Intern</h2>
     </div>
     
-I am currently working at AWS on the CloudWatch RUM (Real-User Monitoring) team.
+In the summer of 2023, I was an intern on the Real User Monitoring under
+the AWS CloudWatch org. While there I experimented with supporting OpenTelemetry
+instrumentations and expanding into support for mobile devices.
 </section>
 
 ### 2021
