@@ -13,7 +13,11 @@ weight = 0
         <h2>Software Development Engineer</h2>
     </div>
 
-I work on the API team in the Managed Kafka service at AWS (MSK).
+I work within AWS' Managed Kafka service, primarily on the control plane. That includes
+cluster management workflows and APIs, as well as cluster health monitoring and recovery.
+Along the way I've made changes that save over $100k monthly, slashed 10 minutes off build
+times by profiling & optimizing code, amd helped launch a region. Oh, and I learned a lot 
+about Kafka.
 </section>
 
 ### 2023
