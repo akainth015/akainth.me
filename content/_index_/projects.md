@@ -7,21 +7,45 @@ weight = 1
 
 <section class="project">
     <div>
-        <div><p>EyeGuard is a Windows app that helps its 200+ users keep their peepers peeping,
-        by opening timely reminders to rest their eyes for 20 seconds every 20 minutes.
-        </p>
-        <div><a class="button" href="https://eyeguard.akainth.me">Website</a></div></div>
+        <img src="_index_/winui.png" alt="" style="margin-top: 2em;">
+        <h3>WinUI memory leak</h3>
+    </div>
+    <div>
+        <div>
+            <p>
+                The WinUI framework leaks memory to the tune of several megabytes when a window is closed.
+                I've created a minimal reproduction and tested several of the proposed solutions.
+            </p>
+            <div>
+                <a class="button" href="https://github.com/microsoft/microsoft-ui-xaml/issues/7282#issuecomment-1717060648">GitHub Issue</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="project">
+    <div>
+        <div>
+            <p>
+                EyeGuard is a Windows app that helps its 700+ users keep their peepers peeping,
+                by opening timely reminders to rest their eyes for 20 seconds every 20 minutes.
+            </p>
+            <div>
+                <a class="button" href="https://eyeguard.akainth.me">Website</a>
+                <a class="button" href="https://github.com/akainth015/EyeGuard">Repository</a>
+            </div>
+        </div>
     </div>
     <div>
         <img src="_index_/EyeGuard.png" alt="">
-        <h1>EyeGuard</h1>
+        <h3>EyeGuard</h3>
     </div>
 </section>
 
 <section class="project">
     <div>
         <img src="https://concept.akainth.me/assets/concept.png" alt="">
-        <h1>Concept</h1>
+        <h3>Concept</h3>
     </div>
     <div>
         <div><p>Concept is a natural language analysis tool geared towards students doing creative writing. 
@@ -40,13 +64,13 @@ weight = 1
     </div>
     <div>
         <img src="_index_/intellij-rust-wsl.png" alt="">
-        <h1>IntelliJ Rust WSL Support</h1>
+        <h3>IntelliJ Rust WSL Support</h3>
     </div>
 </section>
 <section class="project">
     <div>
         <img src="_index_/ambient.svg" data-light-src="_index_/ambient.svg" data-dark-src="_index_/ambient_dark.svg" alt="">
-        <h1>Ambient</h1>
+        <h3>Ambient</h3>
     </div>
     <div>
         <div><p>In my senior year of high school, I wrote Ambient so that I could use IntelliJ to submit my coursework instead of Eclipse. 

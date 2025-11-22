@@ -6,7 +6,7 @@ weight = 0
 
 # Work Experience
 
-### 2024
+### 2025
 <section class="education">
     <div>
         <img src="_index_/aws.png" alt="" data-dark-src="_index_/AWS-Logo-halfwhite.png" data-light-src="_index_/aws.png">
