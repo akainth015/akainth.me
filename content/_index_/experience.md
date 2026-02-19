@@ -6,7 +6,7 @@ weight = 0
 
 # Work Experience
 
-### 2025
+### 2026
 <section class="education">
     <div>
         <img src="_index_/aws.png" alt="" data-dark-src="_index_/AWS-Logo-halfwhite.png" data-light-src="_index_/aws.png">
@@ -16,8 +16,8 @@ weight = 0
 I work within AWS' Managed Kafka service, primarily on the control plane. That includes
 cluster management workflows and APIs, as well as cluster health monitoring and recovery.
 Along the way I've made changes that save over $100k monthly, slashed 10 minutes off build
-times by profiling & optimizing code, amd helped launch a region. Oh, and I learned a lot 
-about Kafka.
+times by profiling & optimizing code, amd helped launch a few regions. 
+Oh, and I learned a lot about Kafka.
 </section>
 
 ### 2023
