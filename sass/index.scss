@@ -74,6 +74,7 @@ section.education {
     padding-top: 16px;
     padding-left: 32px;
     margin-left: 32px;
+    margin-bottom: 16px;
     @media screen and (min-width: 768px) {
         padding-left: 48px;
     }
@@ -81,6 +82,7 @@ section.education {
 
     img {
         max-height: 64px;
+        max-width: 64px;
     }
     p {
         margin-top: 16px;
