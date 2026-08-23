@@ -9,11 +9,22 @@ weight = 0
 ### 2026
 <section class="education">
     <div>
+        <img src="_index_/hydro-logo.svg" alt="" data-dark-src="_index_/hydro-logo.svg" data-light-src="_index_/hydro-logo.svg">
+        <h2>through AWS</h2>
+    </div>
+
+I'm currently contributing to the Hydro project through AWS. I'm implementing consensus
+protocols like Raft and chain replication, while also working on GTM for the framework. On the side, I'm also contributing
+to [Infinity](https://github.com/hydro-project/infinity), where I developed the first application written in Hydro: Infinity Slack bot.
+</section>
+
+<section class="education">
+    <div>
         <img src="_index_/aws.png" alt="" data-dark-src="_index_/AWS-Logo-halfwhite.png" data-light-src="_index_/aws.png">
         <h2>Software Development Engineer</h2>
     </div>
 
-I work within AWS' Managed Kafka service, primarily on the control plane. That includes
+I worked within AWS' Managed Kafka service, primarily on the control plane. That includes
 cluster management workflows and APIs, as well as cluster health monitoring and recovery.
 Along the way I've made changes that save over $100k monthly, slashed 10 minutes off build
 times by profiling & optimizing code, amd helped launch a few regions. 
