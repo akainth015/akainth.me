@@ -88,7 +88,7 @@ weight = 1
             <p>A curated list of books and articles I've read, am reading, or plan to read —
             from distributed systems and software engineering to philosophy and fiction.</p>
             <div>
-                <a class="button" href="/reading-list">Reading List</a>
+                <a class="button" href="/reading-list/">Reading List</a>
             </div>
         </div>
     </div>
