@@ -81,3 +81,15 @@ weight = 1
         </div></div>
     </div>
 </section>
+
+<section class="project">
+    <div>
+        <div>
+            <p>A curated list of books and articles I've read, am reading, or plan to read —
+            from distributed systems and software engineering to philosophy and fiction.</p>
+            <div>
+                <a class="button" href="/reading-list">Reading List</a>
+            </div>
+        </div>
+    </div>
+</section>

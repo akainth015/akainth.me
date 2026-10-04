@@ -14,6 +14,11 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+[markdown.highlighting]
+light_theme = "github-light"
+dark_theme = "github-dark"
+style = "class"
+
 [extra]
 # Put all your custom variables here
 favicon="/images/light64.png"
@@ -42,3 +47,7 @@ href="/resume.pdf"
 
 [extra.dark]
 favicon="/images/dark64.png"
+
+[[extra.navLinks]]
+text="Blog"
+href="/blog"

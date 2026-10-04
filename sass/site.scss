@@ -59,7 +59,7 @@ body {
     text-rendering: optimizeLegibility;
     margin: 0;
 
-    p, ul {
+    p, ul, ol {
         font-size: 1rem;
     }
 
@@ -95,6 +95,26 @@ header {
         > .icon {
             margin-right: 8px;
         }
+    }
+
+    nav {
+        flex-grow: 1;
+        display: flex;
+        justify-content: end;
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            display: inline-block;
+            margin: 0px 8px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
     }
 }
 
@@ -172,4 +192,12 @@ a.button {
 
 a {
     color: aquamarine;
+
+    @media (prefers-color-scheme: light) {
+        color: rebeccapurple;
+    }
+}
+
+hr {
+    color: lightgray;
 }

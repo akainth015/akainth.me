@@ -1,0 +1,82 @@
+main {
+    margin: auto;
+    max-width: 800px;
+
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+
+/* ── Code blocks ── */
+pre.giallo {
+    font-family: "Cascadia Code", "Fira Code", "JetBrains Mono", "Consolas", monospace;
+    font-size: .85rem;
+    line-height: 1.6;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    overflow-x: auto;
+    position: relative;
+    tab-size: 4;
+
+    code {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+
+        &[data-name]::before {
+            content: attr(data-name);
+            display: block;
+            margin-bottom: .4em;
+            padding-bottom: .3em;
+            border-bottom: 1px solid rgba(128, 128, 128, .3);
+            font-size: .75rem;
+            opacity: .7;
+            letter-spacing: .02em;
+        }
+    }
+
+    /* Code content (non-line-number) */
+    .giallo-l {
+        display: inline-block;
+        min-height: 1lh;
+        width: 100%;
+        padding-right: 1rem;
+    }
+
+    /* Line numbers */
+    .giallo-ln {
+        display: inline-block;
+        user-select: none;
+        margin-right: .6em;
+        padding: 0 .5em;
+        min-width: 3ch;
+        text-align: right;
+        opacity: .55;
+        font-size: .75rem;
+        border-right: 1px solid currentColor;
+    }
+}
+
+.article_link {
+    text-decoration: none;
+    color: inherit;
+
+    article {
+        padding: 16px 32px;
+
+        h4 {
+            margin-top: .25rem;
+            margin-bottom: .5rem;
+        }
+
+        p {
+            margin: .25rem 0;
+        }
+
+        &:hover {
+            background-color: rgb(180 180 180 / 0.1);
+        }
+    }
+}
