@@ -64,7 +64,7 @@
         <main>
             {% set sections = get_section(path="_index_/_index.md") %}
             {% for section in sections.pages %}
-            {% if section.path != "_index_/hero/" %}
+            {% if section.path != "/_index_/hero/" %}
             <section>
                 <div>
                     {{ section.content | safe }}
