@@ -12,6 +12,7 @@ template = "page.html"
 5. [QuePaxa: Escaping the Tyranny of Timeouts in Consensus](https://bford.info/pub/os/quepaxa/quepaxa.pdf)
 6. [Optimizing Distributed Protocols with Query Rewrites](https://arxiv.org/abs/2404.01593)
 7. [Finding Bugs in Raft implementations](https://antithesis.com/blog/2026/finding-bugs-in-raft-implementations/) — Antithesis
+8. [CobbleDB: Rebuilding AI search storage for lower latency and cost](https://www.perplexity.ai/hub/blog/cobbledb)
 
 ## LLMs
 
