@@ -13,6 +13,10 @@ template = "page.html"
 6. [Optimizing Distributed Protocols with Query Rewrites](https://arxiv.org/abs/2404.01593)
 7. [Finding Bugs in Raft implementations](https://antithesis.com/blog/2026/finding-bugs-in-raft-implementations/) — Antithesis
 
+## LLMs
+
+1. [Stripe’s Payment Method Factory: Orchestrating agents for repeated, custom integrations](https://stripe.dev/blog/stripes-payment-method-factory-orchestrating-agents-for-repeated-custom-integrations?trk=feed_main-feed-card_feed-article-content)
+
 ## History & Society
 
 1. [A History of Democratic Kampuchea (1975–1979)](https://www.dccam.org/wp-content/uploads/01_Memory/A-HISTORY-OF-DEMOCRATIC-KAMPUCHEA-1975-1979_2nd-En.pdf) — DC-Cam
